@@ -12,6 +12,17 @@ const Work = () => {
                     <div className="row">
                         <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
                             <ul className="timeline timeline-centered">
+
+                                <li className="timeline-item">
+                                    <div className="timeline-info">
+                                        <span>May 2018 - Current</span>
+                                    </div>
+                                    <div className="timeline-marker"></div>
+                                    <div className="timeline-content">
+                                        <h3 className="timeline-title">HackerYou, Inc</h3>
+                                        <p>Masterclass Fullstack (Enrolled)</p>
+                                    </div>
+                                </li>
                                 
                                 <li className="timeline-item">
                                     <div className="timeline-info">
