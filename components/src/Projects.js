@@ -28,7 +28,7 @@ const Projects = () => {
                         <li className="projects">
                             <div className="projects__left">
                                 <div className="projects__left--name">
-                                    <a href="https://portfolio-leocheung.appspot.com/">LeoCheung</a>
+                                    <a href="https://leolpcheung.herokuapp.com">LeoCheung</a>
                                 </div>
                             </div>
                             <div className="projects__right">
