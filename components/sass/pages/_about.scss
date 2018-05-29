@@ -1,0 +1,51 @@
+.portfolio
+{
+    padding: 10rem 0;
+    
+    &__image
+    {
+        display: block;
+        width: 15rem;
+        border-radius: 100px;
+        margin: 0 auto;
+    }
+
+    &__heading
+    {
+        text-align: center;
+        font-size: 3.5rem;
+        padding: 3rem 0;
+    }
+
+    &__paragraph
+    {
+        margin: 0 auto;
+        width: 55%;
+        font-size: 1.8rem;
+        padding: 1rem 0;
+        letter-spacing: .3rem;
+    }
+}
+
+
+@media only screen and (max-width: 800px)
+{
+    .portfolio
+    {
+        &__paragraph
+        {
+            width: 65%;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .portfolio
+    {
+        &__paragraph
+        {
+            width: 75%;
+        }
+    }
+}

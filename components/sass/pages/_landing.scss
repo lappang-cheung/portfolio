@@ -1,0 +1,84 @@
+.landing-page
+{
+    background: linear-gradient(
+        to right bottom,
+        rgba($color-blue-purple, .3),
+        rgba($color-voilet-purple, .4)),
+        url('https://portfolio-leocheung.appspot.com/img/landing_bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.section
+{
+    &__content
+    {
+        &--role
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .h3
+        {
+            color: $primary-menu;
+            font-size: 6rem;
+            text-transform: uppercase;
+            letter-spacing: 1rem;
+        }
+
+        #text-developer
+        {
+            margin-top: -2.5rem;
+            font-weight: 700;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px)
+{
+    .section
+    {
+
+        &__content
+        {
+        .h3
+        {
+        font-size: 3.5rem;
+        }
+
+        #text-developer
+        {
+        margin-top: -1.5rem;
+        font-weight: 700;
+        }
+        }
+        }
+        }
+
+        @media only screen and (max-width: 600px)
+        {
+        .section
+        {
+            &__content
+            {
+            .h3
+            {
+            color: white;
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 1rem;
+            }
+
+            #text-developer
+            {
+            margin-top: -1.5rem;
+            font-weight: 700;
+            }
+        }
+    }
+}

@@ -1,0 +1,136 @@
+.nav-user
+{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    transition: all .2s;
+
+    &__item
+    {
+        padding: 0 2rem;
+
+        &--link
+        {
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: $primary-menu;
+            letter-spacing: .5rem;
+            font-weight: 700;
+            border-bottom: solid 1px $primary-menu;
+        }
+
+        &--link:hover
+        {
+            color: $color-voilet-purple;
+            border-bottom: 1px solid $color-voilet-purple;
+            font-size: 1.7rem;
+        }
+    }
+
+    &__logo
+    {
+        padding: 0 1.2rem;
+
+        &--icon
+        {
+            display: block;
+            width: 7rem;
+            height: 7rem;
+            border-radius: 100px;
+            border-color: $primary-menu;
+            border: .3rem solid $primary-menu;
+        }
+
+        &--icon:hover
+        {
+            display: block;
+            border-color: $color-blue-purple;
+            border: .5rem solid $color-blue-purple;
+        }
+    }
+}
+
+.sticky-nav
+{
+    background: linear-gradient(to right bottom, rgba($color-blue-purple,.6), rgba($color-voilet-purple, .6));
+}
+
+@media only screen and (max-width: 800px)
+{
+    .nav-user
+    {
+        &__item
+        {
+            padding: 0 .6rem;
+
+            &--link
+            {
+                font-size: 1.3rem;
+                text-decoration: none;
+                letter-spacing: .4rem;
+                border-radius: none;
+            }
+
+            &--link:hover
+            {
+                color: $color-voilet-purple;
+                border-bottom: 1px solid $color-blue-purple;
+                font-size: 1.7rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .nav-user
+    {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__item
+        {
+            padding: 0 .4rem;
+
+                &--link
+                {
+                    font-size: .7rem;
+                    text-decoration: none;
+                    letter-spacing: .3rem;
+                    border-bottom: none;
+                }
+
+                &--link:hover
+                {
+                    color: $color-voilet-purple;
+                    border-bottom: 1px solid $color-blue-purple;
+                    font-size: 1rem;
+                }
+            }
+
+            &__logo
+            {
+                padding: 0 0.4rem;
+
+            &--icon
+            {
+                width: 3rem;
+                height: 3rem;
+            }
+
+            &--icon:hover
+            {
+                display: block;
+                width: 3rem;
+                height: 3rem;
+                border-radius: 100px;
+                border-color: $color-blue-purple;
+                border: .5rem solid $color-blue-purple;
+            }
+        }
+    }
+}

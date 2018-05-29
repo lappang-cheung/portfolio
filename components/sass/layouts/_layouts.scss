@@ -1,0 +1,88 @@
+.header
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.sticky
+{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.section
+{
+    &__content
+    {
+        margin: 0 auto;
+        max-width: 120rem;
+        position: relative;
+    
+        &--heading
+        {
+            text-align: center;
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 1rem;
+        }
+    }
+}
+
+.odd
+{
+    background: linear-gradient(
+        to right bottom,
+        rgba($primary-light-odd, .3),
+        rgba($primary-dark-odd, .4));
+}
+
+.even
+{
+    background: linear-gradient(
+        to right bottom,
+        rgba($primary-menu, .3),
+        rgba($color-voilet-purple, .2));
+}
+
+@media only screen and (max-width: 800px)
+{
+    //Reset for whitespace
+    .section
+    {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .full-horizontal
+    {
+        width: 100%;
+    }
+
+    .full-vertical
+    {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    //Reset for whitespace
+    .section
+    {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .full-horizontal
+    {
+        width: 100%;
+    }
+
+    .full-vertical
+    {
+        height: 100%;
+    }
+}

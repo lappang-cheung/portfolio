@@ -1,0 +1,79 @@
+.section
+{
+    &__content
+    {
+        &--list
+        {
+            padding: 2rem 0 9rem 0;
+        }
+    }
+}
+
+.projects
+{
+    display: flex;
+    list-style: none;
+    padding: 1.2rem 0;
+
+    &__left
+    {
+        width: 50%;
+        display: flex;
+
+        &--name
+        {
+            padding-left: 3rem;
+            font-size: 2rem;
+            text-align: left;
+            width: 100%;
+
+            a{
+                text-decoration: none;
+                color: $primary-text;
+            }
+        }
+
+    }
+
+    &__right
+    {
+        width: 50%;
+
+        &--date
+        {
+            font-size: 2rem;
+            text-align: right;
+            padding-right: 3rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .projects
+    {
+
+        &__left
+        {
+            width: 100%;
+            display: flex;
+
+            &--name
+            {
+                font-size: 2rem;
+                text-align: center;
+                padding: 0;
+
+                a{
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        &__right
+        {
+            display: none;
+        }
+    }
+}
