@@ -7,10 +7,24 @@ const Projects = () => {
 
                 <div className="section__content">
                     <h2 className="section__content--heading">
-                        Projects
+                        Projects &amp; Challenges
                     </h2>
 
                     <ul className="section__content--list">
+
+                        <li className="projects">
+                            <div className="projects__left">
+                                <div className="projects__left--name">
+                                    <a href="https://github.com/lappang-cheung/HackerYouChallenge">LCBO Backend Tech Challenge</a>
+                                </div>
+                            </div>
+                            <div className="projects__right">
+                                <div className="projects__right--date">
+                                    April 2018 - Completed
+                                </div>
+                            </div>
+                        </li>
+
                         <li className="projects">
                             <div className="projects__left">
                                 <div className="projects__left--name">
@@ -82,19 +96,6 @@ const Projects = () => {
                             <div className="projects__right">
                                 <div className="projects__right--date">
                                     April 2016 - Completed
-                                </div>
-                            </div>
-                        </li>
-
-                        <li className="projects">
-                            <div className="projects__left">
-                                <div className="projects__left--name">
-                                    <a href="https://twitteronreact.herokuapp.com">TwitterClone</a>
-                                </div>
-                            </div>
-                            <div className="projects__right">
-                                <div className="projects__right--date">
-                                    January 2016 - Completed
                                 </div>
                             </div>
                         </li>
