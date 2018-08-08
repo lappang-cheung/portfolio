@@ -15,12 +15,12 @@ const Work = () => {
 
                                 <li className="timeline-item">
                                     <div className="timeline-info">
-                                        <span>May 2018 - Current</span>
+                                        <span>May 2018 - August 2018</span>
                                     </div>
                                     <div className="timeline-marker"></div>
                                     <div className="timeline-content">
                                         <h3 className="timeline-title">HackerYou, Inc</h3>
-                                        <p>Masterclass Fullstack (Enrolled)</p>
+                                        <p>Masterclass Fullstack</p>
                                     </div>
                                 </li>
                                 
@@ -53,19 +53,7 @@ const Work = () => {
                                     <div className="timeline-marker"></div>
                                     <div className="timeline-content">
                                         <h3 className="timeline-title">SunLife Financial</h3>
-                                        <p>Junior Middleware Analyst</p>
-                                    </div>
-                                </li>
-                                
-                               
-                                <li className="timeline-item">
-                                    <div className="timeline-info">
-                                        <span>Janurary 2014 - April 2014</span>
-                                    </div>
-                                    <div className="timeline-marker"></div>
-                                    <div className="timeline-content">
-                                        <h3 className="timeline-title">Electronic Information Inc.</h3>
-                                        <p>Web Developer Intern</p>
+                                        <p>Application Developer Support</p>
                                     </div>
                                 </li>
 
