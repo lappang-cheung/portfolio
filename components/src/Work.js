@@ -75,7 +75,7 @@ const Work = () => {
                                     <div className="timeline-marker"></div>
                                     <div className="timeline-content">
                                         <h3 className="timeline-title">University of Toronto</h3>
-                                        <p>Web Adminstrator Assistant</p>
+                                        <p>Web Developer (Intern)</p>
                                     </div>
                                 </li>
 
