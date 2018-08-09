@@ -59,7 +59,7 @@ const Work = () => {
 
                                 <li className="timeline-item">
                                     <div className="timeline-info">
-                                        <span>August 2013</span>
+                                        <span>June 2013</span>
                                     </div>
                                     <div className="timeline-marker"></div>
                                     <div className="timeline-content">
