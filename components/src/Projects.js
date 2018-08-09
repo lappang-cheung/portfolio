@@ -15,12 +15,12 @@ const Projects = () => {
                         <li className="projects">
                             <div className="projects__left">
                                 <div className="projects__left--name">
-                                    <a href="https://github.com/lappang-cheung/HackerYouChallenge">LCBO Backend Tech Challenge</a>
+                                    <a href="www.leocheung.ca">LeoCheung</a>
                                 </div>
                             </div>
                             <div className="projects__right">
                                 <div className="projects__right--date">
-                                    April 2018 - Completed
+                                    June 2018 - Completed
                                 </div>
                             </div>
                         </li>
@@ -28,12 +28,12 @@ const Projects = () => {
                         <li className="projects">
                             <div className="projects__left">
                                 <div className="projects__left--name">
-                                    <a href="www.leocheung.ca">LeoCheung</a>
+                                    <a href="https://github.com/lappang-cheung/HackerYouChallenge">LCBO Backend Tech Challenge</a>
                                 </div>
                             </div>
                             <div className="projects__right">
                                 <div className="projects__right--date">
-                                    March 2018 - Present
+                                    April 2018 - Completed
                                 </div>
                             </div>
                         </li>
@@ -46,7 +46,7 @@ const Projects = () => {
                             </div>
                             <div className="projects__right">
                                 <div className="projects__right--date">
-                                    August 2018 - Completed
+                                    March 2018 - Completed
                                 </div>
                             </div>
                         </li>
