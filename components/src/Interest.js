@@ -11,14 +11,12 @@ const Interest = () => {
                         </h2>
                     
                         <p className="portfolio__paragraph">
-                            My current interest and goal at the moment is travelling. As I love culture from different parts of the world from Europe to Asia, as I have many friends from
+                            My goal is travel to different countries and enjoy their culture &amp; food. I am live with culture from different parts of the world from Europe to Asia. I have many friends from
                             different parts of the world ranging from London, France, Amsterdan, German, Russia, Korea, Hong Kong and Japan.
                         </p>
 
                         <p className="portfolio__paragraph">
-                            Technology wise, I would like to/currently learning Crypto Technology and virtual reality because it would be next step as hardware &amp; infrastructure has
-                            finally caught up. We can now start to design new innovation such as auto-pilotted cars or virtual retail spaces. As well as collobration between miners, developer and miners
-                            to help medical research such as a cure for cancer.
+                            Currently, I am interested and focused on working for tech company that focuses on the JavaScript framework and completed FullStack course using the MERN stack.
                         </p>
                         <div className="interest">    
                     </div>
