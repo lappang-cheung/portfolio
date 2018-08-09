@@ -31,7 +31,7 @@ const Work = () => {
                                     <div className="timeline-marker"></div>
                                     <div className="timeline-content">
                                         <h3 className="timeline-title">SunLife Financial</h3>
-                                        <p>Junior Web Application Developer</p>
+                                        <p>Junior Web Developer</p>
                                     </div>
                                 </li>
 
