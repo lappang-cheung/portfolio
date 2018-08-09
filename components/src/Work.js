@@ -20,7 +20,7 @@ const Work = () => {
                                     <div className="timeline-marker"></div>
                                     <div className="timeline-content">
                                         <h3 className="timeline-title">HackerYou, Inc</h3>
-                                        <p>Masterclass Fullstack</p>
+                                        <p>Masterclass Fullstack Bootcamp (MERN)</p>
                                     </div>
                                 </li>
                                 
