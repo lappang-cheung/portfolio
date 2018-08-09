@@ -15,7 +15,7 @@ const Projects = () => {
                         <li className="projects">
                             <div className="projects__left">
                                 <div className="projects__left--name">
-                                    <a href="https://polar-ridge-58141.herokuapp.com">Bootcamp DEMO MERN Project</a>
+                                    <a href="https://polar-ridge-58141.herokuapp.com">Bootcamp Demo MERN Project</a>
                                 </div>
                             </div>
                             <div className="projects__right">
