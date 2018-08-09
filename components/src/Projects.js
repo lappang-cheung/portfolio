@@ -15,6 +15,32 @@ const Projects = () => {
                         <li className="projects">
                             <div className="projects__left">
                                 <div className="projects__left--name">
+                                    <a href="https://polar-ridge-58141.herokuapp.com">Bootcamp DEMO MERN Project</a>
+                                </div>
+                            </div>
+                            <div className="projects__right">
+                                <div className="projects__right--date">
+                                    August 2018 - Completed
+                                </div>
+                            </div>
+                        </li>
+
+                        <li className="projects">
+                            <div className="projects__left">
+                                <div className="projects__left--name">
+                                    <a href="https://github.com/lappang-cheung/codecanadaskillchallenge">Code For Canada Challenge</a>
+                                </div>
+                            </div>
+                            <div className="projects__right">
+                                <div className="projects__right--date">
+                                    July 2018 - Completed
+                                </div>
+                            </div>
+                        </li>
+
+                        <li className="projects">
+                            <div className="projects__left">
+                                <div className="projects__left--name">
                                     <a href="www.leocheung.ca">LeoCheung</a>
                                 </div>
                             </div>
